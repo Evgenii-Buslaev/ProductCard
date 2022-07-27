@@ -203,6 +203,11 @@ body {
   color: #c4c4c4;
 }
 
+#more {
+  text-decoration: none;
+  color: #edc42c;
+}
+
 .color {
   display: flex;
   flex-direction: column;
@@ -290,6 +295,13 @@ body {
   margin: 2rem 0;
   display: flex;
   flex-direction: column;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.buy-buttons :hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 #add_wishlist {
@@ -300,6 +312,14 @@ body {
   border: solid #ffffff;
   font-size: 26px;
   color: #ffffff;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+#add_wishlist:active {
+  background-color: #ffffff;
+  border: solid #ffffff;
+  color: #2d2e32;
 }
 
 #add_cart {
@@ -311,4 +331,10 @@ body {
   font-size: 26px;
   font-weight: 700;
   color: #2d2e32;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+#add_cart:active {
+  opacity: 0.55;
 }
