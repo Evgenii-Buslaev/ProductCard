@@ -25,7 +25,7 @@
       </section>
       <section class="product-description">
         <p class="product-category">CHAIRS</p>
-        <h1 class="headioing">Modern Yellow Chair</h1>
+        <h1 class="heading">Modern Yellow Chair</h1>
         <p class="description">Tinners House</p>
         <div class="price-rating">
           <p class="price">$420</p>
@@ -34,11 +34,10 @@
           </div>
         </div>
         <nav class="product-info-navigation-bar">
-          <div>DESCRIPTION</div>
-          <div>DETAILS</div>
-          <div>COMMENTS</div>
+          <div class="nav-element">DESCRIPTION</div>
+          <div class="nav-element">DETAILS</div>
+          <div class="nav-element">COMMENTS</div>
         </nav>
-        <p class="description"></p>
         <div class="options-bar">
           <div class="header">
             <div>COLOR</div>
@@ -46,17 +45,27 @@
             <div>TOTAL PRICE</div>
           </div>
           <div class="options">
-            <input type="color" />
-            <div>
-              <button id="decrease">-</button>
-              <div id="amount">2</div>
-              <button id="increase">+</button>
+            <div class="color">
+              <input type="color" />
             </div>
-            <div class="total-price">$840</div>
+            <div class="quantity">
+              <div id="decrease">-</div>
+              <div id="amount">2</div>
+              <div id="increase">+</div>
+            </div>
+            <div class="total-price">
+              <p id="price">$840</p>
+            </div>
           </div>
+          <p class="information">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            sagittis quam ac nulla blandit vehicula at vitae ipsum... read more
+          </p>
         </div>
-        <button>ADD TO MY WISHLIST</button>
-        <button>ADD TO CART</button>
+        <div class="buy-buttons">
+          <button id="add_wishlist">ADD TO MY WISHLIST</button>
+          <button id="add_cart">ADD TO CART</button>
+        </div>
       </section>
     </div>
   </body>
