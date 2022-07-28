@@ -166,15 +166,19 @@ body {
   justify-content: space-between;
 }
 
-.product-info-navigation-bar :first-child {
-  border-bottom: solid #edc42c;
-}
-
 .nav-element {
   font-size: 28px;
   font-weight: 700;
   line-height: 32px;
-  border-bottom: solid #c4c4c4;
+}
+
+.nav-element:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.active {
+  border-bottom: solid #edc42c;
 }
 
 .options-bar {
@@ -200,6 +204,8 @@ body {
   font-size: 26px;
   font-weight: 500;
   color: #c4c4c4;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 #more {

@@ -47,7 +47,7 @@
             </div>
           </div>
           <nav class="product-info-navigation-bar">
-            <div class="nav-element">DESCRIPTION</div>
+            <div class="nav-element active">DESCRIPTION</div>
             <div class="nav-element">DETAILS</div>
             <div class="nav-element">COMMENTS</div>
           </nav>
@@ -86,11 +86,31 @@
       </section>
     </div>
     <script>
+      let navElement = document.querySelectorAll(".nav-element");
+      let information = document.querySelector(".information");
+      let navBar = document.querySelector(".product-info-navigation-bar");
+
       let amount = document.getElementById("amount");
       let addItem = document.getElementById("increase");
       let deleteItem = document.getElementById("decrease");
       let totalPrice = document.getElementById("price");
       let inputColor = document.querySelector("input");
+
+      navBar.addEventListener("click", (e) => {
+        if (e.target.classList.value === "nav-element") {
+          for (let i = 0; i < navBar.childNodes.length; i++) {
+            navBar.childNodes[i].classList?.remove("active");
+          }
+
+          e.target.classList.add("active");
+          information.style.opacity = 0;
+          setTimeout(() => {
+            information.style.opacity = 1;
+          }, 500);
+        } else {
+          return;
+        }
+      });
 
       let count = 1;
       let price = 420;
