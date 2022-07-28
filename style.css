@@ -98,25 +98,6 @@ body {
   height: 533px;
 }
 
-.counter {
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-  width: 100px;
-  height: 25px;
-}
-
-.counter > :first-child {
-  background-color: #edc42c;
-}
-
-.circle {
-  width: 25px;
-  height: 25px;
-  background-color: #c4c4c4;
-  border-radius: 50%;
-}
-
 /* rightn side (down) */
 
 .content {
@@ -373,10 +354,6 @@ body {
   #product {
     width: 207px;
     height: 283px;
-  }
-  .circle {
-    width: 15px;
-    height: 15px;
   }
   .heading {
     font-size: 30px;
