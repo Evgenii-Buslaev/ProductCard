@@ -402,6 +402,11 @@ body {
     width: 30px;
     height: 30px;
   }
+  #decrease,
+  #amount,
+  #increase {
+    font-size: 20px;
+  }
   .quantity-cont,
   .total-price-cont {
     width: 100px;
@@ -460,16 +465,10 @@ body {
     width: 20px;
     height: 20px;
   }
-
   .quantity-cont,
   .total-price-cont {
     width: 80px;
     height: 30px;
-  }
-  #decrease,
-  #amount,
-  #increase {
-    font-size: 20px;
   }
   #price {
     font-size: 20px;
