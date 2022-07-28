@@ -77,6 +77,9 @@ body {
 }
 
 .product-card-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 7rem auto;
   width: 1440px;
@@ -86,6 +89,9 @@ body {
 /* left container (upper) */
 
 .product-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -143,6 +149,9 @@ body {
 }
 
 .price-rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -150,6 +159,9 @@ body {
 
 .product-info-navigation-bar {
   margin: 3rem 0 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
 }
@@ -166,12 +178,18 @@ body {
 }
 
 .options-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   color: #c4c4c4;
 }
 
 .quantity {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,6 +208,9 @@ body {
 }
 
 .color {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -201,6 +222,9 @@ body {
 }
 
 .color-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -233,6 +257,9 @@ body {
 }
 
 .quantity-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -249,6 +276,9 @@ body {
 }
 
 .total-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -274,6 +304,9 @@ body {
 
 .buy-buttons {
   margin: 2rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   transition-property: all;
@@ -333,6 +366,10 @@ body {
   .product-container,
   .product-description {
     width: 100vw;
+    height: auto;
+  }
+  #product {
+    margin: 1rem auto 0;
   }
   .product-description {
     height: auto;
