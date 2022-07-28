@@ -354,7 +354,7 @@ body {
     width: 100vw;
   }
   .product-description {
-    height: 100vh;
+    height: auto;
   }
   .counter {
     padding: 3rem 0;
@@ -371,23 +371,57 @@ body {
 
 @media (max-width: 580px) {
   #product {
-    width: 407px;
-    height: 483px;
+    width: 207px;
+    height: 283px;
+  }
+  .circle {
+    width: 15px;
+    height: 15px;
   }
   .heading {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .description {
+    margin: 1rem 0;
+    font-size: 25px;
+  }
+  .price {
+    font-size: 35px;
   }
   .nav-element {
     font-size: 20px;
     line-height: 26px;
   }
+  .color-cont {
+    width: 60px;
+    height: 40px;
+  }
+  .color-cont input {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+  }
+  .quantity-cont,
+  .total-price-cont {
+    width: 100px;
+    height: 40px;
+  }
+  #price {
+    font-size: 20px;
+    margin: 0.4rem 1.5rem;
+  }
   .color :first-child,
   .quantity :first-child,
-  .total-price :first-child,
+  .total-price :first-child {
+    font-size: 23px;
+  }
   #add_wishlist,
   #add_cart {
-    font-size: 22px;
+    margin: 0.5rem auto;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
   }
 }
 
@@ -398,19 +432,50 @@ body {
   .information {
     font-size: 20px;
   }
-  .options-bar {
-    flex-direction: column;
-  }
   .color :first-child,
   .quantity :first-child,
-  .total-price :first-child,
-  #add_wishlist,
-  #add_cart {
+  .total-price :first-child {
     font-size: 16px;
   }
   .color,
   .quantity,
   .total-price {
     margin: 0.5rem 0;
+  }
+  #add_wishlist,
+  #add_cart {
+    margin: 0.5rem auto;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 330px) {
+  .color-cont {
+    width: 40px;
+    height: 30px;
+  }
+  .color-cont input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .quantity-cont,
+  .total-price-cont {
+    width: 80px;
+    height: 30px;
+  }
+  #decrease,
+  #amount,
+  #increase {
+    font-size: 20px;
+  }
+  #price {
+    font-size: 20px;
+    margin: 0 1rem;
+  }
+  .buy-buttons {
+    margin: 0;
   }
 }
