@@ -157,6 +157,10 @@ body {
   align-items: center;
 }
 
+.rating :hover {
+  cursor: pointer;
+}
+
 .product-info-navigation-bar {
   margin: 3rem 0 1rem;
   display: -webkit-box;
