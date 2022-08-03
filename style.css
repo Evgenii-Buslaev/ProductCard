@@ -379,6 +379,8 @@ body {
     height: auto;
   }
   #product {
+    width: 257px;
+    height: 333px;
     margin: 1rem auto 0;
   }
   .product-description {
